@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Exo:wght@500&family=Lobster+Two&family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    font-family: 'Poppin', sans-serif;
+    background: whitesmoke;
+}
+
+#header {
+    background-color: whitesmoke;
+    position: relative;
+    height: 90px;
+}
+
+#footer {
+    min-height: 14rem;
+    min-width: 100vw;
+    display: flex;
+    background-color: rgb(169, 167, 167);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.reveal{
+    
+    position: relative;
+    transform: translateY(150px);
+    opacity:1;
+    transition: all 1s ease;
+}
+
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.main-section0 {
+    height: 80vh;
+    width: 80vw;
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px 5%;
+    background: white
+}
+
+.main-section {
+    height: 90vh;
+    width: 90vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    margin: auto;
+}
+
+.sub-section {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.sub-section2 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2 {
+    font-size: 19px;
+    font-weight: 100;
+    font-family: system-ui;
+    text-align: center;
+}
+
+p {
+    font-family: system-ui;
+    color: black;
+    font-size: larger;
+    margin: 50px 54px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+svg {
+    color: rgb(0, 0, 0);
+    margin: 10px auto;
+    height: 35px;
+    width: auto;
+}
+
+p2 {
+    font-family: 'poppin', sans-serif;
+    color: black;
+    font-size: 12px;
+    margin: 13px 7px;
+    font-weight: 100;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.p-2 {
+    font-family: 'Poppin', sans-serif;
+    color: black;
+    font-size: 10px;
+    margin: 23px 8px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+nav .logo {
+    height: 3rem;
+    width: auto;
+}
+
+nav {
+    min-width: 100vw;
+    display: flex;
+    position: absolute;
+    height: inherit;
+    top: 0;
+    left: 0;
+    padding: 1.5rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 0 2rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0 0 0 / 75%);
+    font-weight: 500;
+    font-size: 14px;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    transform: translateX(10px);
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.name-title {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin: auto; */
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+
+.name-title h1 {
+    color: rgb(0 0 0 / 82%);
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 3px;
+}
+
+.name-title h1:hover {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+
+.button {
+    height: 2rem;
+    border: 2px solid orangered;
+    background: none;
+    display: flex;
+    width: 10rem;
+    position: relative;
+    bottom: 17rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.back-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+}
+
+.back-video2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.back-video3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+@media(min-aspect-ratio:16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+
+    .back-video2 {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media(max-aspect-ratio:16/9) {
+    .back-video {
+        width: auto;
+        height: 100%
+    }
+}
+
+@media(min-aspect-ratio:9/16) {
+    .back-video3 {
+        height: 78%;
+        margin: 25% 0;
+        width: auto;
+    }
+}
