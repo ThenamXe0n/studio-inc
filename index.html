@@ -15,13 +15,14 @@
         <nav>
             <img src="medias/png-transparent-united-states-lettering-calligraphy-typography-logo-los-angeles-text-poster-logo.png"
                 class="logo">
-            <ul>
-                <li><a href="#home">STUDIO</a></li>
-                <li><a href="#home">LIFE AT BTG</a></li>
-                <li><a href="dimentions"> SERVICES</a></li>
+            <ul id="MenuItems">
+                <li><a href="#header">STUDIO</a></li>
+                <li><a href="index.html">LIFE AT BTG</a></li>
+                <li><a href="#header"> SERVICES</a></li>
                 <li><a href="constactus"> PARTNER </a></li>
                 <li><a href="#about">CAREER</a></li>
             </ul>
+            <img src="medias/menu.png" class="menu-icon" onclick="menutoggle()">
         </nav>
     </header>
     <section class="main-section section">
@@ -38,7 +39,7 @@
             <input type="button" value="know more!" class="button">
         </div>
     </section>
-    <div style="height: 7rem;">
+    <div style="height: 7rem;" class="tagline">
         <p>
             We exist to create narrative, one that talks back. As a brand you don't have to choose between purpose and
             profit,<br> you can do both - and we're here to design it for you, end-to-end.
@@ -128,7 +129,23 @@
             <p2>HOME</p2>
         </div>
     </footer>
-   
+
+    <script>
+        var MenuItems = document.getElementById('MenuItems');
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "1000px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+    <script src="script.js"></script>
 
 </body>
 
