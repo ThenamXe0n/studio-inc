@@ -451,7 +451,7 @@ nav ul li a:hover {
         width: 90%;
         overflow: hidden;
         transition: 1.0s;
-        height: 90vh;
+        height: 80vh;
         background: aliceblue;
         display: flex;
         flex-direction: column;
