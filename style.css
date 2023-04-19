@@ -389,7 +389,7 @@ nav ul li a:hover {
     .landing-page {
         position: absolute;
         background-color: white;
-        height: 80vh;
+        height: 90vh;
         width: 100vw;
         background: url(medias/studio1.jpg);
         background-size: cover;
@@ -426,12 +426,6 @@ nav ul li a:hover {
         position: absolute;
         top: 35%;
         left: 2%;
-    }
-
-    .tagline {
-        height: 0rem;
-        position: relative;
-        bottom: 24px;
     }
 
     p {
