@@ -359,6 +359,12 @@ nav ul li a:hover {
     padding: 4rem 1rem;
 }
     
+ .link:hover{
+    font-size:1.2rem;
+    
+    }
+    
+    
     .name-title h1 {
         color: rgb(0 0 0 / 82%);
         text-align: center;
