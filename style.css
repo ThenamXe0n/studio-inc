@@ -292,6 +292,10 @@ nav ul li a:hover {
     opacity: 1;
 }
 
+#studio{
+    font-size:2px;
+}
+
 
 
 @media(min-aspect-ratio:16/9) {
@@ -348,6 +352,13 @@ nav ul li a:hover {
     #footer{
         flex-direction:column;
     }
+    
+    
+#studio{
+    font-size:1px;
+    padding: 4rem 1rem;
+}
+    
     .name-title h1 {
         color: rgb(0 0 0 / 82%);
         text-align: center;
