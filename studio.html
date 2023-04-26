@@ -29,7 +29,7 @@
     <section>
 
         <div
-            style="display: flex;text-align: center;color: black;font-size: 2rem;flex-direction: column;align-items: center;margin: auto;">
+            style="display: flex;text-align: center;color: black;flex-direction: column;align-items: center;margin: auto;">
             <h1>STUDIO INC works in the field of FILMS , SHOOTS , PRODUCTION </h1>
             <h2 style="font-size: 1rem;">Services we offer includes</h2>
             <ul style="list-style-type: disc; text-align: justify; margin: 50px auto;">
@@ -42,6 +42,23 @@
             <strong style="margin:50px auto;"> all work is done by us only from start to end includin editings</strong>
         </div>
     </section>
+    
+       <script>
+        var MenuItems = document.getElementById('MenuItems');
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "800px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+    <script src="script.js"></script>
 
 </body>
 
