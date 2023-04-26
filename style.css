@@ -44,6 +44,11 @@ html {
     height: 90px;
 }
 
+
+#studio{
+font-size:2rem;
+}
+
 #footer {
     min-height: 14rem;
     min-width: 100vw;
@@ -220,6 +225,18 @@ nav ul li a {
     font-weight: 500;
     font-size: 14px;
     transition: 1s;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    color: #0417a9d1;
+    transition: 0.5s ease-out;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
 }
 
 nav ul li a:hover {
