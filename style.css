@@ -191,6 +191,7 @@ p2 {
 nav .logo {
     height: 3rem;
     width: auto;
+    margin: 0;
 }
 
 nav {
