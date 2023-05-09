@@ -484,10 +484,12 @@ nav ul li a:hover {
         text-align: center;
         left: 5%;
         bottom: 0;
+        margin:0;
+        padding:0;
         width: 90%;
         overflow: hidden;
         transition: 1.0s;
-        height: 80vh;
+        height: 85vh;
         background: aliceblue;
         display: flex;
         flex-direction: column;
